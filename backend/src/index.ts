@@ -21,9 +21,19 @@ async function startServer() {
     
     if (!fs.existsSync(moviesFile) || fs.readFileSync(moviesFile, 'utf8').trim() === '[]') {
       console.log('🌱 No content data found, running seeder...');
-      const { seedDatabase } = require('./scripts/seed');
-      await seedDatabase();
-      console.log('✅ Data seeding completed');
+      try {
+        const seedModule = require('./scripts/seed');
+        const seedDatabase = seedModule.seedDatabase || seedModule.default;
+        if (typeof seedDatabase === 'function') {
+          await seedDatabase();
+          console.log('✅ Data seeding completed');
+        } else {
+          console.log('⚠️ Seeder function not found, skipping...');
+        }
+      } catch (error) {
+        console.log('⚠️ Could not run seeder:', error instanceof Error ? error.message : String(error));
+        console.log('📝 Continuing without seeded data...');
+      }
     }
     
     // Start the server
