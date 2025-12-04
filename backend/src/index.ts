@@ -4,7 +4,8 @@ import app from './app';
 // Load environment variables
 dotenv.config();
 
-const PORT = parseInt(process.env.PORT || '5001', 10);
+// Railway sets PORT automatically, fallback to 3000 for local development
+const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function startServer() {
   try {
