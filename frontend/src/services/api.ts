@@ -1,8 +1,11 @@
 import axios from 'axios';
 import { MyListItem, PaginatedResponse, ApiResponse } from '../types';
 
+// Debug: Log the API base URL
+console.log('API Base URL:', import.meta.env.VITE_API_BASE_URL || '/api');
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  baseURL: 'https://ott-platform-my-list-production.up.railway.app/api',
   timeout: 10000,
 });
 
