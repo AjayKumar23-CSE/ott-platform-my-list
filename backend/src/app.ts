@@ -115,10 +115,11 @@ app.post('/create-sample-data', async (req, res) => {
         id: uuidv4(),
         title: "The Matrix",
         description: "A computer hacker learns about the true nature of reality.",
-        genre: "SciFi",
+        genres: ["SciFi", "Action"],
         releaseDate: "1999-03-31T00:00:00.000Z",
         duration: 136,
         rating: 8.7,
+        actors: ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
         posterUrl: "https://via.placeholder.com/300x450/000000/FFFFFF?text=The+Matrix",
         trailerUrl: "https://www.youtube.com/watch?v=vKQi3bBA1y8"
       },
@@ -126,10 +127,11 @@ app.post('/create-sample-data', async (req, res) => {
         id: uuidv4(),
         title: "Inception",
         description: "A thief who steals corporate secrets through dream-sharing technology.",
-        genre: "SciFi",
+        genres: ["SciFi", "Thriller"],
         releaseDate: "2010-07-16T00:00:00.000Z",
         duration: 148,
         rating: 8.8,
+        actors: ["Leonardo DiCaprio", "Marion Cotillard", "Tom Hardy"],
         posterUrl: "https://via.placeholder.com/300x450/000000/FFFFFF?text=Inception",
         trailerUrl: "https://www.youtube.com/watch?v=YoHD9XEInc0"
       }
@@ -141,7 +143,7 @@ app.post('/create-sample-data', async (req, res) => {
         id: uuidv4(),
         title: "Breaking Bad",
         description: "A high school chemistry teacher turned methamphetamine manufacturer.",
-        genre: "Drama",
+        genres: ["Drama", "Crime"],
         seasons: 5,
         episodes: [
           {
