@@ -12,8 +12,14 @@ const app = express();
 // Security middleware
 app.use(helmet());
 app.use(cors({
-  origin: process.env.FRONTEND_URL || true, // Allow all origins temporarily
-  credentials: true
+  origin: [
+    process.env.FRONTEND_URL || 'http://localhost:3000',
+    'https://ott-platform-my-list-git-main-ajay-kumars-projects-eb5c30ca.vercel.app',
+    'https://ott-platform-my-list-pzaovikuo-ajay-kumars-projects-eb5c30ca.vercel.app'
+  ],
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
 // Compression middleware
