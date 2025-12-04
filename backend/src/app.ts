@@ -62,6 +62,39 @@ app.post('/seed', async (req, res) => {
   }
 });
 
+// Debug endpoint to check data files
+app.get('/debug', (req, res) => {
+  try {
+    const fs = require('fs');
+    const path = require('path');
+    const dataDir = path.join(__dirname, '../data');
+    
+    const files = ['movies.json', 'tvshows.json', 'users.json', 'auth-users.json'];
+    const debug = {};
+    
+    files.forEach(file => {
+      const filePath = path.join(dataDir, file);
+      if (fs.existsSync(filePath)) {
+        const content = fs.readFileSync(filePath, 'utf8');
+        debug[file] = {
+          exists: true,
+          size: content.length,
+          content: content.substring(0, 200) + (content.length > 200 ? '...' : '')
+        };
+      } else {
+        debug[file] = { exists: false };
+      }
+    });
+    
+    res.json({ success: true, debug });
+  } catch (error) {
+    res.status(500).json({ 
+      success: false, 
+      error: error instanceof Error ? error.message : String(error) 
+    });
+  }
+});
+
 // API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/my-list', myListRoutes);
