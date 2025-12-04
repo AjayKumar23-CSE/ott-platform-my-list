@@ -42,6 +42,26 @@ app.get('/health', (req, res) => {
   res.json(response);
 });
 
+// Manual seed endpoint for debugging
+app.post('/seed', async (req, res) => {
+  try {
+    const seedModule = require('./scripts/seed');
+    const seedDatabase = seedModule.seedDatabase || seedModule.default;
+    if (typeof seedDatabase === 'function') {
+      await seedDatabase();
+      res.json({ success: true, message: 'Database seeded successfully' });
+    } else {
+      res.status(500).json({ success: false, message: 'Seeder function not found' });
+    }
+  } catch (error) {
+    res.status(500).json({ 
+      success: false, 
+      message: 'Seeding failed', 
+      error: error instanceof Error ? error.message : String(error) 
+    });
+  }
+});
+
 // API routes
 app.use('/api/auth', authRoutes);
 app.use('/api/my-list', myListRoutes);
