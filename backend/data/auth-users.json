@@ -1,0 +1,34 @@
+[
+  {
+    "id": "john_doe",
+    "username": "john_doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "name": "John Doe",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "jane_smith",
+    "username": "jane_smith",
+    "email": "jane@example.com",
+    "password": "password123",
+    "name": "Jane Smith",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "movie_buff",
+    "username": "movie_buff",
+    "email": "moviebuff@example.com",
+    "password": "password123",
+    "name": "Movie Buff",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "admin",
+    "username": "admin",
+    "email": "admin@example.com",
+    "password": "admin123",
+    "name": "Administrator",
+    "createdAt": "2025-01-01T00:00:00.000Z"
+  }
+]
