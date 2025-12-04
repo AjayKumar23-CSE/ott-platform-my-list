@@ -13,6 +13,19 @@ async function startServer() {
     console.log(`🔧 Environment PORT: ${process.env.PORT}`);
     console.log(`🔧 Using PORT: ${PORT}`);
     
+    // Check if data exists, if not, seed it
+    const fs = require('fs');
+    const path = require('path');
+    const dataDir = path.join(__dirname, '../data');
+    const moviesFile = path.join(dataDir, 'movies.json');
+    
+    if (!fs.existsSync(moviesFile) || fs.readFileSync(moviesFile, 'utf8').trim() === '[]') {
+      console.log('🌱 No content data found, running seeder...');
+      const { seedDatabase } = require('./scripts/seed');
+      await seedDatabase();
+      console.log('✅ Data seeding completed');
+    }
+    
     // Start the server
     app.listen(PORT, '0.0.0.0', () => {
       console.log(`🚀 Server running on port ${PORT}`);
