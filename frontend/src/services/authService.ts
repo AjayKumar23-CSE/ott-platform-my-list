@@ -2,7 +2,7 @@ import axios from 'axios';
 import { LoginRequest, AuthResponse, AuthUser } from '../types';
 import { setAuthHeader } from './api';
 
-const API_BASE_URL = `${import.meta.env.VITE_API_BASE_URL || '/api'}/auth`;
+const API_BASE_URL = 'https://ott-platform-my-list-production.up.railway.app/api/auth';
 
 // Create axios instance for auth
 const authApi = axios.create({

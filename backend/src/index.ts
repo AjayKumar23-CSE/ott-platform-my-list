@@ -9,6 +9,8 @@ const PORT = parseInt(process.env.PORT || '5001', 10);
 async function startServer() {
   try {
     console.log('🗂️  Using file-based storage (no database required)');
+    console.log(`🔧 Environment PORT: ${process.env.PORT}`);
+    console.log(`🔧 Using PORT: ${PORT}`);
     
     // Start the server
     app.listen(PORT, '0.0.0.0', () => {
