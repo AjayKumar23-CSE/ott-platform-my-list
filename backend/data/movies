@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "35b0bb26-38fc-46ac-a3a1-ff291ba9acc2",
+    "title": "The Matrix",
+    "description": "A computer programmer discovers that reality as he knows it is a simulation.",
+    "genres": [
+      "Action",
+      "SciFi"
+    ],
+    "releaseDate": "1999-03-31T00:00:00.000Z",
+    "director": "The Wachowskis",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=450&fit=crop&crop=center"
+  },
+  {
+    "id": "246c16d9-546b-4998-bec8-ad03d8196db7",
+    "title": "The Shawshank Redemption",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption.",
+    "genres": [
+      "Drama"
+    ],
+    "releaseDate": "1994-09-23T00:00:00.000Z",
+    "director": "Frank Darabont",
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1489599735734-79b4169c2a78?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1489599735734-79b4169c2a78?w=800&h=450&fit=crop&crop=center"
+  },
+  {
+    "id": "03077fbc-8bc4-42d9-b3be-baf4aef9da18",
+    "title": "Inception",
+    "description": "A thief who steals corporate secrets through dream-sharing technology.",
+    "genres": [
+      "Action",
+      "SciFi",
+      "Drama"
+    ],
+    "releaseDate": "2010-07-16T00:00:00.000Z",
+    "director": "Christopher Nolan",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Marion Cotillard",
+      "Tom Hardy"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&h=450&fit=crop&crop=center"
+  },
+  {
+    "id": "56fc121f-c848-4df6-94e4-216c1c5f5d9a",
+    "title": "The Princess Bride",
+    "description": "A classic fairy tale adventure with romance, comedy, and sword fighting.",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Fantasy"
+    ],
+    "releaseDate": "1987-09-25T00:00:00.000Z",
+    "director": "Rob Reiner",
+    "actors": [
+      "Cary Elwes",
+      "Robin Wright",
+      "Mandy Patinkin"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=450&fit=crop&crop=center"
+  },
+  {
+    "id": "5689c06d-44a6-4700-b952-bb8d6f867de5",
+    "title": "Pulp Fiction",
+    "description": "The lives of two mob hitmen, a boxer, and others intertwine in Los Angeles.",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "releaseDate": "1994-10-14T00:00:00.000Z",
+    "director": "Quentin Tarantino",
+    "actors": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800&h=450&fit=crop&crop=center"
+  }
+]

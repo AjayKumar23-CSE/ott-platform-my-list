@@ -1,1 +1,104 @@
-[]
+[
+  {
+    "id": "56080949-49ba-4ac2-98df-cbe7019a26e9",
+    "title": "Breaking Bad",
+    "description": "A high school chemistry teacher turned methamphetamine manufacturer.",
+    "genres": [
+      "Drama"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=450&fit=crop&crop=center",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "seasonNumber": 1,
+        "releaseDate": "2008-01-20T00:00:00.000Z",
+        "director": "Vince Gilligan",
+        "actors": [
+          "Bryan Cranston",
+          "Aaron Paul"
+        ]
+      },
+      {
+        "episodeNumber": 2,
+        "seasonNumber": 1,
+        "releaseDate": "2008-01-27T00:00:00.000Z",
+        "director": "Adam Bernstein",
+        "actors": [
+          "Bryan Cranston",
+          "Aaron Paul"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e0752840-3ece-40ed-a04e-6d3735fed135",
+    "title": "Stranger Things",
+    "description": "A group of kids in a small town uncover supernatural mysteries.",
+    "genres": [
+      "SciFi",
+      "Horror",
+      "Drama"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=450&fit=crop&crop=center",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "seasonNumber": 1,
+        "releaseDate": "2016-07-15T00:00:00.000Z",
+        "director": "The Duffer Brothers",
+        "actors": [
+          "Millie Bobby Brown",
+          "Finn Wolfhard",
+          "David Harbour"
+        ]
+      },
+      {
+        "episodeNumber": 2,
+        "seasonNumber": 1,
+        "releaseDate": "2016-07-15T00:00:00.000Z",
+        "director": "The Duffer Brothers",
+        "actors": [
+          "Millie Bobby Brown",
+          "Finn Wolfhard",
+          "David Harbour"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3fee0642-dc40-4349-8376-2771d836e719",
+    "title": "The Office",
+    "description": "A mockumentary about office employees in Scranton, Pennsylvania.",
+    "genres": [
+      "Comedy"
+    ],
+    "posterUrl": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=300&h=450&fit=crop&crop=center",
+    "backdropUrl": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&h=450&fit=crop&crop=center",
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "seasonNumber": 1,
+        "releaseDate": "2005-03-24T00:00:00.000Z",
+        "director": "Ken Kwapis",
+        "actors": [
+          "Steve Carell",
+          "John Krasinski",
+          "Jenna Fischer"
+        ]
+      },
+      {
+        "episodeNumber": 2,
+        "seasonNumber": 1,
+        "releaseDate": "2005-03-29T00:00:00.000Z",
+        "director": "Ken Kwapis",
+        "actors": [
+          "Steve Carell",
+          "John Krasinski",
+          "Jenna Fischer"
+        ]
+      }
+    ]
+  }
+]

@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "id": "13b8f0c0-ba4f-4d6d-aecc-978c080fbf6c",
+    "userId": "john_doe",
+    "contentId": "35b0bb26-38fc-46ac-a3a1-ff291ba9acc2",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "e6a43670-57b1-4ac6-a512-f51e5eb51df7",
+    "userId": "john_doe",
+    "contentId": "246c16d9-546b-4998-bec8-ad03d8196db7",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "b21a9c4e-bfeb-4be3-bf4a-3f6fcfd67d84",
+    "userId": "john_doe",
+    "contentId": "56080949-49ba-4ac2-98df-cbe7019a26e9",
+    "contentType": "tvshow",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "e7d288f6-8740-436d-9f55-49e3edf52b60",
+    "userId": "jane_smith",
+    "contentId": "35b0bb26-38fc-46ac-a3a1-ff291ba9acc2",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "7d6edffa-9299-415d-a397-ff00e3066ebc",
+    "userId": "jane_smith",
+    "contentId": "246c16d9-546b-4998-bec8-ad03d8196db7",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "1d7a05c5-645d-48a2-90ac-e8a5a27740e0",
+    "userId": "jane_smith",
+    "contentId": "56080949-49ba-4ac2-98df-cbe7019a26e9",
+    "contentType": "tvshow",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "2ed7fefb-2b5d-45fb-a0ee-6fdcb030620c",
+    "userId": "movie_buff",
+    "contentId": "35b0bb26-38fc-46ac-a3a1-ff291ba9acc2",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "cb362b3d-fd42-484c-8182-cd3bb4768210",
+    "userId": "movie_buff",
+    "contentId": "246c16d9-546b-4998-bec8-ad03d8196db7",
+    "contentType": "movie",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  },
+  {
+    "id": "d18ae046-ece3-4df9-97cf-13da97bef701",
+    "userId": "movie_buff",
+    "contentId": "56080949-49ba-4ac2-98df-cbe7019a26e9",
+    "contentType": "tvshow",
+    "addedAt": "2025-12-04T10:31:25.364Z"
+  }
+]

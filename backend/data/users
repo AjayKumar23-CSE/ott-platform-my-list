@@ -1,1 +1,43 @@
-[]
+[
+  {
+    "id": "john_doe",
+    "username": "john_doe",
+    "preferences": {
+      "favoriteGenres": [
+        "Action",
+        "SciFi"
+      ],
+      "dislikedGenres": [
+        "Horror"
+      ]
+    },
+    "watchHistory": []
+  },
+  {
+    "id": "jane_smith",
+    "username": "jane_smith",
+    "preferences": {
+      "favoriteGenres": [
+        "Romance",
+        "Comedy"
+      ],
+      "dislikedGenres": [
+        "Action",
+        "Horror"
+      ]
+    },
+    "watchHistory": []
+  },
+  {
+    "id": "movie_buff",
+    "username": "movie_buff",
+    "preferences": {
+      "favoriteGenres": [
+        "Drama",
+        "Fantasy"
+      ],
+      "dislikedGenres": []
+    },
+    "watchHistory": []
+  }
+]
